@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Pomodoro Timer Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Pomodoro Timer](https://img.shields.io/badge/Project-Pomodoro%20Timer-ff4e50)
+![React](https://img.shields.io/badge/React-19.1.0-61DAFB)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Available Scripts
+A modern, feature-rich Pomodoro Timer application built with React that helps users improve productivity using the Pomodoro Technique.
 
-In the project directory, you can run:
+## 📋 Features
 
-### `npm start`
+- **Customizable Timer Settings**: Adjust work sessions, short breaks, and long breaks to fit your workflow
+- **Visual Progress Tracking**: Circular progress indicator shows time remaining at a glance
+- **Session Counter**: Track completed Pomodoro sessions with tomato indicators
+- **Sound Notifications**: Audio alerts when sessions end (can be toggled on/off)
+- **Persistent Settings**: Your preferences are saved between sessions using local storage
+- **Clean, Modern UI**: Visually appealing interface with smooth animations and transitions
+- **Responsive Design**: Works on desktop and mobile devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖥️ Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Functional components with Hooks (useState, useEffect, useRef)
+- **CSS3**: Custom styling with animations and transitions
+- **Local Storage API**: For persistent user preferences
+- **SVG**: For circular timer visualization
 
-### `npm test`
+## 🚀 Installation and Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```
+   git clone https://github.com/YOUR_USERNAME/pomodoro-timer.git
+   cd pomodoro-timer
+   ```
 
-### `npm run build`
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Screenshots
 
-### `npm run eject`
+*[Add screenshots of your application here]*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧠 The Pomodoro Technique
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. It uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks. Each interval is known as a "pomodoro" (Italian for tomato) after the tomato-shaped kitchen timer Cirillo used as a university student.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Implementation Details
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **State Management**: Uses React's useState hook for managing application state
+- **Side Effects**: Implements useEffect for timer functionality and local storage persistence
+- **Audio Integration**: Uses the Web Audio API for session completion sounds
+- **SVG Animation**: Dynamic SVG properties for visual timer representation
 
-## Learn More
+## 🔮 Future Enhancements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Task management integration
+- Statistics and analytics dashboard
+- User accounts for cross-device synchronization
+- Additional themes and customization options
+- Progressive Web App (PWA) implementation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
 
-### Code Splitting
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👤 Author
 
-### Analyzing the Bundle Size
+- **Your Name** - [Your GitHub Profile](https://github.com/YOUR_USERNAME)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*This project was created as part of my B.Tech coursework to demonstrate React development skills.*
