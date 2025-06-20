@@ -27,7 +27,7 @@ A modern, feature-rich Pomodoro Timer application built with React that helps us
 
 1. Clone the repository:
    ```
-   git clone https://github.com/YOUR_USERNAME/pomodoro-timer.git
+   git clone https://github.com/whattheharsha/pomodoro-timer.git
    cd pomodoro-timer
    ```
 
@@ -45,7 +45,7 @@ A modern, feature-rich Pomodoro Timer application built with React that helps us
 
 ## 📸 Screenshots
 
-*[Add screenshots of your application here]*
+![Pomodoro Timer Screenshot 1](./ScreenShots/Screenshot%202025-06-15%20230300.png)
 
 ## 🧠 The Pomodoro Technique
 
@@ -72,7 +72,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👤 Author
 
-- **Your Name** - [Your GitHub Profile](https://github.com/YOUR_USERNAME)
+- **Harsha Vardhan** - [GitHub Profile](https://github.com/whattheharsha)
 
 ---
 
