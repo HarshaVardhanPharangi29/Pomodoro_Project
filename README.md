@@ -34,7 +34,7 @@ A modern, feature-rich Pomodoro Timer application built with React that helps us
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/whattheharsha/pomodoro-timer.git
+git clone https://github.com/HarshaVardhanPharangi29/pomodoro-timer.git
 cd pomodoro-timer
 Install dependencies:
 
